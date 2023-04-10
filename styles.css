@@ -130,6 +130,17 @@ main article {
     display: flex;
     align-items: center;
     gap: .5rem;
+    animation: slideInDesktop .5s ease-in-out;
+}
+
+@keyframes slideInDesktop {
+    0% {
+        transform: translateY(100%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+    
 }
 
 
