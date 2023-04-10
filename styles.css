@@ -62,7 +62,7 @@ main article {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 2rem;
+    padding: 1rem 1.5rem 1rem 1.5rem;
 }
 
 .author img {
@@ -106,4 +106,41 @@ main article {
 
 .share img {
     width: 20px;
+}
+
+.inactive {
+    display: none;
+}
+
+.active {
+    display: flex;
+}
+
+.share-links {
+    gap: 1rem;
+    align-items: center;
+    letter-spacing: 6px;
+    font-size: .75rem;
+}
+
+.share-links ul{
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+}
+
+.active-links {
+    background-color: var(--very-dark-grayish-blue);
+    color: var(--desaturated-dark-blue);
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+    border-radius: 0 0 10px 10px;
+}
+
+.active-links ul li a img {
+    width: 20px;
+    border-radius: 0;
 }
