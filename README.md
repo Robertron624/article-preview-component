@@ -25,12 +25,13 @@ Users should be able to:
 - See the social media share links when they click the share icon
 
 ### Screenshot
+![image](https://user-images.githubusercontent.com/72587880/231186340-95611707-266c-48cc-9308-347ec48d7eff.png)
 
 
 ### Links
 
 - Solution URL: [Solution URL](https://github.com/Robertron624/article-preview-component)
-- Live Site URL: [Live site URL](https://your-live-site-url.com)
+- Live Site URL: [Live site URL](https://sage-syrniki-d6565a.netlify.app/)
 
 ## My process
 
